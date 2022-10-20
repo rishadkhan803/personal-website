@@ -1,3 +1,17 @@
+/* Variables */
+:root {
+  --color-primary: #ec4c7a;
+  --color-secondary: #ed4b6f;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
 html,
 body {
   font-family: "Roboto", sans-serif;
@@ -5,3 +19,67 @@ body {
   font-weight: 400;
   line-height: 1.6;
 }
+
+::selection {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+/* Utilities */
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.l-heading {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+.text {
+  font-size: 1.6rem;
+  color: #7777;
+}
+
+/* Section: Header */
+#header {
+  background-image: url("img/header-bg.png") no-repeat center;
+  height: 100vh;
+  position: relative;
+}
+
+#header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#header .container .right {
+  width: 45%;
+}
+
+#header .container .right img {
+  width: 140%;
+}
+
+#header .container .left {
+  width: 50%;
+}
+
+#header .container .left .l-heading span {
+  font-weight: 900;
+}
+
+/* Section: Biography */
+
+/* Section: Work */
+
+/* Section: Footer */
