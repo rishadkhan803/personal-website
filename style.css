@@ -27,7 +27,7 @@ body {
 
 /* Utilities */
 .container {
-  max-width: 1100px;
+  max-width: 85%;
   margin: 0 auto;
 }
 
@@ -79,6 +79,7 @@ body {
 /* Section: Header */
 #header {
   background: url("img/header-bg.png") no-repeat center;
+  background-size: 100vw;
 }
 
 #header .container {
@@ -112,6 +113,7 @@ body {
 /* Section: Biography */
 #biography {
   background: url("img/biography-bg.png") no-repeat center;
+  background-size: 100vw;
 }
 
 #biography .container {
@@ -141,6 +143,7 @@ body {
 /* Section: Work */
 #work {
   background: url("img/latest-work-bg.png") no-repeat center;
+  background-size: 100vw;
   padding: 12rem 0 12rem 0;
 }
 
@@ -163,6 +166,7 @@ body {
 /* Section: Footer */
 #footer {
   background: url(img/footer-bg.png) no-repeat center;
+  background-size: 100vw;
   padding-top: 12rem;
 }
 
